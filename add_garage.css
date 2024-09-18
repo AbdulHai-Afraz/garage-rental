@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header.top-bar {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.top-bar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header.top-bar a.top-bar-btn {
+    color: #fff;
+    background: #3498db;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+header.top-bar a.top-bar-btn:hover {
+    background: #2980b9;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.garage-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.garage-form input, .garage-form select, .garage-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.garage-form select {
+    background: #fff;
+}
+
+.garage-form button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.garage-form button:hover {
+    background: #2980b9;
+}

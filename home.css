@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header.top-bar {
+    background: #333;
+    color: #fff;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #3498db;
+}
+
+header.top-bar h1 {
+    margin: 0;
+    font-size: 30px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+header.top-bar nav.top-bar-nav {
+    display: flex;
+    gap: 15px;
+}
+
+header.top-bar a.top-bar-btn {
+    color: #fff;
+    background: #3498db;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header.top-bar a.top-bar-btn:hover {
+    background: #2980b9;
+}
+
+main {
+    padding: 20px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-form input, .filter-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filter-form button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-form button:hover {
+    background: #2980b9;
+}
+
+/* Adjust the garages list to be vertical */
+.garages-list {
+    display: block;
+}
+.garage-item-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.garage-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the container */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: background 0.3s, border-color 0.3s;
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Text section (left side) */
+.garage-item-content {
+    flex: 1; /* Take up the remaining space */
+    margin-right: 20px; /* Space between text and image */
+}
+
+/* Ensure the image is properly sized and positioned to the right */
+.garage-item img {
+    max-width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Hover effect for the item */
+.garage-item-link:hover .garage-item {
+    background: #eaeaea; /* Change background color on hover */
+    border-color: #3498db; /* Change border color on hover */
+}

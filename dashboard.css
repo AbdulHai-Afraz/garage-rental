@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header.top-bar {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #3498db;
+}
+
+header.top-bar h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header.top-bar nav {
+    display: flex;
+    gap: 15px;
+}
+
+header.top-bar a {
+    color: #fff;
+    background: #3498db;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header.top-bar a:hover {
+    background: #2980b9;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+.garages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.garage-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 200px;
+}
+
+.garage-item h3 {
+    margin-top: 0;
+}
+
+
